@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+/* In your CSS file with Tailwind imports */
+@layer utilities {
+  .animate-spin-slow {
+    @apply rotate-0;
+    animation: spin 6s linear infinite;
+  }
+
+  .hover\:bg-lightHover:hover {
+    background-color: #fcf4ff; /* Replace with your desired color */
+  }
+
+  .hover\:bg-darkHover:hover {
+    background-color: #fcf4ff; /* Replace with your desired color */
+  }
+
+  .hover\:shadow-black:hover {
+    box-shadow: 4px 4px 0 #000;
+  }
+
+  .hover\:shadow-white:hover {
+    box-shadow: 4px 4px 0 #fff;
+  }
+
+  .font-Ovo {
+    font-family: "Ovo", "serif";
+  }
+
+  .font-Outfit {
+    font-family: "Outfit", "sans-serif";
+  }
+
+  .dark\:bg-darkTheme {
+    background-color: #001a00;
+  }
+}
