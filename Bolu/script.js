@@ -131,8 +131,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const form = document.getElementById("myForm");
 
-form.addEventListener("submit", function (event) {
+/* form.addEventListener("submit", function (event) {
   event.preventDefault(); // Prevent actual form submission (for demo)
   // Clear the form
   form.reset();
-});
+}); */
